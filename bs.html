@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>등비수열 생성기</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>등비수열 생성기</h1>
+        <div class="form-group">
+            <label for="first-term">첫 번째 수:</label>
+            <input type="number" id="first-term" required>
+        </div>
+        <div class="form-group">
+            <label for="common-ratio">공비:</label>
+            <input type="number" id="common-ratio" required>
+        </div>
+        <div class="form-group">
+            <label for="length">길이:</label>
+            <input type="number" id="length" required>
+        </div>
+        <button onclick="generateGeometricSequence()">등비수열 생성</button>
+        <div id="result"></div><br>
+        <button id="home">홈</button>
+    </div>
+    <script src='bs.js'></script>
+</body>
+</html>
